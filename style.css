@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    background: url(images/banner/banner2.png);
+    width: 100%;
+    height: 750px;
+    background-size: 100%;
+}
+
+.one {
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: 220px;
+    width: 370px;
+    text-align: end;
+}
+
+.one>h1 {
+    font-size: 2rem;
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.one>p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+.one>button {
+    background-color: rgb(27, 27, 214);
+    color: azure;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.two {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.three {
+    margin-left: 900px;
+    margin-top: -480px;
+    width: 360px;
+}
+
+.three>h1 {
+    font-size: 2rem;
+    color: crimson;
+    letter-spacing: 1px;
+}
+
+.three>p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.four {
+    line-height: 25px;
+    font-weight: 580;
+}
+
+.four>p>span {
+    color: rgb(81, 229, 243);
+}
+
+.five {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 3rem;
+    color: hotpink;
+}
+
+.six {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.six>div>h2 {
+    color: blue;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+.six>div>p {
+    margin: 5px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: crimson;
+}
+
+.seven {
+    background: url(images/watch.png)no-repeat;
+    background-size: 100%;
+    width: 1100px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.seven>div>h1 {
+    display: inline-block;
+    color: azure;
+    margin-left: 100px;
+    margin-top: 55px;
+    letter-spacing: 1px;
+}
+
+.seven>div>button {
+    display: block;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: rgb(155, 145, 30);
+    color: azure;
+    border: none;
+}
+
+.seven>div {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.4));
+    width: 1100px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.nine {
+    background-color: black;
+    color: azure;
+    width: 100%;
+    height: 600px;
+    margin: 30px auto;
+}
+
+.ten {
+    margin-left: 200px;
+    width: 480px;
+    margin-top: 120px;
+    display: inline-block;
+}
+
+.ten>h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.ten>.para {
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.ten>p {
+    line-height: 40px;
+}
+
+.eleven {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 165px;
+    justify-content: space-between;
+}
+
+.twelve {
+    margin-left: 1100px;
+    margin-top: -340px;
+    display: block;
+}
+
+.twelve>h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.twelve>.thirteen {
+    margin-top: 30px;
+}
+
+.twelve>.thirteen>input {
+    padding: 15px 50px 15px 15px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+.twelve>button {
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: rgb(217, 83, 83);
+    border-radius: 7px;
+}
